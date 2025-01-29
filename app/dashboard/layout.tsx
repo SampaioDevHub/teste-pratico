@@ -4,7 +4,6 @@ import { useAuth } from "@/contexts/auth-context"
 import { redirect } from "next/navigation"
 import { DashboardNav } from "@/components/dashboard-nav"
 import { Loader2 } from "lucide-react"
-import { SidebarProvider } from "@/components/ui/sidebar"
 
 export default function DashboardLayout({
   children,
